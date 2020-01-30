@@ -1,0 +1,14 @@
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\obj\Debug\REMS.DAL.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\obj\Debug\REMS.DAL.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\REMS.DAL.dll.config
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\REMS.DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\REMS.DAL.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\EntityFramework.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\REMS.Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\REMS.Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\EntityFramework.xml
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\obj\Debug\REMS.DAL.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\obj\Debug\REMS.DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.DAL\obj\Debug\REMS.DAL.pdb

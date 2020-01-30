@@ -1,0 +1,205 @@
+﻿@model Models.SharedViewModel
+@{
+    ViewBag.Title = "ManageAppointment";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewAppointment" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ManageAppointment</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Styles.css")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Label("1", new { @class = "number" })
+                    <h5> Please enter your appointment details</h5>
+                    @Html.HiddenFor(x => x.Appointment.Id)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 start">
+                    @Html.Label("Postcode", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.PostCode, new { htmlAttributes = new { onkeydown = "return ValidateNumber(event)", @class = "form-control", maxlength = 4, id = "tboxSize" } })
+                </div>
+                <div class="col-lg-2">
+                    <input type="button" value="Lookup" class="btn btn-primary m-1 bttn" onclick="location.href='@Url.Action("PartialViewLookup","Appointment")';" />
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Manually enter address", id = "tboxSize" } })
+                </div>
+            </div>
+            <div class="row" style="padding-top:50px;">
+                <div class="col-lg-10 start">
+                    @Html.Label("Please ensure the details are correct.", new { @class = "label" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 start">
+                    @Html.Raw(HttpUtility.HtmlDecode(Html.LabelFor(x => x.Appointment.NoOfBedrooms, "Number of <br/> &nbsp; bedrooms", new { @class = "label" }).ToString()))
+                </div>
+                <div class="col-lg-3">
+                    @Html.DropDownListFor(x => x.Appointment.NoOfBedrooms, new List<SelectListItem>
+               {
+               new SelectListItem{Text="1 Bedroom"},
+               new SelectListItem{Text="2 Bedrooms"},
+               new SelectListItem{Text="3 Bedrooms"},
+               new SelectListItem{Text="4 Bedrooms"},
+               new SelectListItem{Text="+5 Bedrooms"},
+               }, "*** Please select ***",
+               new {@class= "form-control", id="Name"})
+                    @Html.HiddenFor(x => x.Appointment.NoOfBedrooms)
+                </div>
+                <div class="col-lg-2">
+                    @Html.Label("Property Type", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.DropDownListFor(x=> x.Appointment.PropertyTypeId, new List<SelectListItem>
+                    (new SelectList(Model.LookUp, "Id", "Name")),
+                    "*** Please select ***", new { @class="form-control", id="Id"})
+                    @Html.HiddenFor(x => x.Appointment.PropertyTypeId)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 start">
+                    <p class="blaknote">
+                        &nbsp; Please select your prefered date and time slot. Your assessor will then
+                        contact you to organize an hour slot in which the survey will take place.
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="padding-top:0px;">
+                <div class="col-lg-10 start">
+                    <p class="note">
+                        &nbsp; YOU WILL NOT NEED TO WAIT IN THE PROPERTY
+                        FOR 3 OR 4 HOURS OR TAKE THIS TIME OF WORK.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 start">
+                    @Html.Label("Amend appointment time", new { @class = "label", style = "font-weight:normal; text-decoration: underline;" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="img-with-text">
+                        <img src="~/Content/images/logo.png" /><br />
+                        <a href="#" style="float:right;">Next Week<strong>>></strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Label("2", new { @class = "number" })
+                    <h5>Please fill in your contact details</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top:50px;">
+                <div class="col-lg-10 start">
+                    @Html.Label("Please tell us your name", new { @class = "label" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 start">
+                    @Html.Label("First Name", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.FirstName, new { htmlAttributes = new { onkeydown = "return ValidateLetter(event)", @class = "form-control", id = "tboxSize" } })
+                    <label class="Asterisk">*</label>
+                    @Html.ValidationMessageFor(x => x.Appointment.FirstName, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-lg-2">
+                    @Html.Label("Surname", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.SurName, new { htmlAttributes = new { onkeydown = "return ValidateLetter(event)", @class = "form-control", id = "tboxSize" } })
+                    <label class="Asterisk">*</label>
+                    @Html.ValidationMessageFor(x => x.Appointment.SurName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row" style="padding-top:50px;">
+                <div class="col-lg-10 start">
+                    @Html.Label("What's your email address?", new { @class = "label" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 start">
+                    <p class="blaknote">
+                        &nbsp; We will need your email address to send you your EPC and update you.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 start">
+                    @Html.Label("Email", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.Email, new { htmlAttributes = new { @class = "form-control", id = "tboxSize" } })
+                    <label class="Asterisk">*</label>
+                    @Html.ValidationMessageFor(x => x.Appointment.Email, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-lg-2">
+                    @Html.Label("Confirm Email", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.ConfirmEmail, new { htmlAttributes = new { @class = "form-control", id = "tboxSize" } })
+                    <label class="Asterisk">*</label>
+                    @Html.ValidationMessageFor(x => x.Appointment.ConfirmEmail, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="row" style="padding-top:50px;">
+                <div class="col-lg-10 start">
+                    @Html.Label("What's your mobile number?", new { @class = "label" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 start">
+                    <p class="blaknote">
+                        &nbsp; We will need your Mobile Number to contact you and update you.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 start">
+                    @Html.Label("MobileNo", new { @class = "label" })
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(x => x.Appointment.MobileNo, new { htmlAttributes = new { @class = "form-control", id = "tboxSize" } })
+                    <label class="Asterisk">*</label>
+                    @Html.ValidationMessageFor(x => x.Appointment.MobileNo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-2">
+                    <input type="submit" value="Submit" class="btn btn-primary m-1 bttn" onclick="location.href='@Url.Action("ManageAppointment","Appointment")';" />
+                </div>
+                <div class="col-lg-2">
+                    <input type="button" value="Cancel" class="btn btn-primary m-1 bttn" onclick="location.href='@Url.Action("ManageAppointment","Appointment")';" />
+                </div>
+            </div>
+        </div>
+
+    }
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/Scripts.js")
+</body>
+</html>

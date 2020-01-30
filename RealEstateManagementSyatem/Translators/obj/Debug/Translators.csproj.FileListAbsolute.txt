@@ -1,0 +1,14 @@
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Translators.dll
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Translators.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Models.dll
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\DAL.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\DAL.dll.config
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Translators\bin\Debug\Models.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Translators\obj\Debug\Translators.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\Translators\obj\Debug\Translators.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\Translators\obj\Debug\Translators.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\Translators\obj\Debug\Translators.dll
+D:\Assignmnet\RealEstateManagementSyatem\Translators\obj\Debug\Translators.pdb

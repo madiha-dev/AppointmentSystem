@@ -1,0 +1,10 @@
+D:\Assignmnet\RealEstateManagementSyatem\DAL\bin\Debug\DAL.dll.config
+D:\Assignmnet\RealEstateManagementSyatem\DAL\bin\Debug\DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\DAL\bin\Debug\DAL.pdb
+D:\Assignmnet\RealEstateManagementSyatem\DAL\bin\Debug\Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\DAL\bin\Debug\Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\DAL\obj\Debug\DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\DAL\obj\Debug\DAL.pdb

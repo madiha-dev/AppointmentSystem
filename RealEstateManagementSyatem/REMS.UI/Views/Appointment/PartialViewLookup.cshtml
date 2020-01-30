@@ -1,0 +1,53 @@
+﻿@model Models.SharedViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewPartialViewLookup" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Styles.css")
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <thread>
+                <tr>
+                    <th>Index</th>
+                    <th>Appointment Time</th>
+                    <th>Name</th>
+                    <th>Mobile No</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Property Details</th>
+
+                </tr>
+            </thread>
+            <tbody>
+                @foreach (var mod in Model.Appointments)
+                {
+                    <tr>
+                        <td align="center">@mod.Id</td>
+                        <td>@mod.AppointmentDate</td>
+                        <td>@mod.FirstName @mod.SurName</td>
+                        <td>@mod.MobileNo</td>
+                        <td>@mod.Email</td>
+                        <td>@mod.PropertyType, @mod.PostCode</td>
+                        <td>@mod.NoOfBedrooms</td>
+                        <td>
+                            @Html.ActionLink("Edit", "ManageAppointment", new { DBOperation = "EDIT", ID = mod.Id, @class = "btn btn-outline-danger btnEdit" })
+                            @Html.ActionLink("Delete", "PartialViewLookup", new { DBOperation = "DELETE", ID = mod.Id, @class = "btn btn-outline-danger btnDelete" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p align="center">
+            <br />
+            @Html.ActionLink("Cancel", "ManageAppointment", "Appointment", new { @class = "btn btn-primary bttn" })
+        </p>
+        }
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    </body>
+</html>

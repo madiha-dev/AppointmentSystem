@@ -1,0 +1,12 @@
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EF.DAL.dll.config
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EF.DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EF.DAL.pdb
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EntityFramework.dll
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EntityFramework.xml
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\obj\Debug\EF.DAL.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\obj\Debug\EF.DAL.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\obj\Debug\EF.DAL.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\obj\Debug\EF.DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\EF.DAL\obj\Debug\EF.DAL.pdb

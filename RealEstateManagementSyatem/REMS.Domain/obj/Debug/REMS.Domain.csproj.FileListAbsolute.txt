@@ -1,0 +1,6 @@
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\bin\Debug\REMS.Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\bin\Debug\REMS.Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\obj\Debug\REMS.Domain.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\obj\Debug\REMS.Domain.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\obj\Debug\REMS.Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Domain\obj\Debug\REMS.Domain.pdb

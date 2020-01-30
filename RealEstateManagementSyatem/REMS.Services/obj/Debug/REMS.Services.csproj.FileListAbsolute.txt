@@ -1,0 +1,14 @@
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.Services.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.Services.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.DAL.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\EntityFramework.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.DAL.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.DAL.dll.config
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\REMS.Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\bin\Debug\EntityFramework.xml
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\obj\Debug\REMS.Services.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\obj\Debug\REMS.Services.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\obj\Debug\REMS.Services.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\obj\Debug\REMS.Services.dll
+D:\Assignmnet\RealEstateManagementSyatem\REMS.Services\obj\Debug\REMS.Services.pdb

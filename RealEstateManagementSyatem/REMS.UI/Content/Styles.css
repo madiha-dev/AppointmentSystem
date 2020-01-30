@@ -1,0 +1,126 @@
+﻿body {
+}
+.row{
+    padding-top:15px;
+}
+.number {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 4px 4px 4px 0px;
+    background: #08B52F;
+    color: #FFFFFF;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+h5 {
+    font: 20px Arial, sans-serif;
+    font-weight: bold;
+    color: #4F8BAF;
+    margin-left: 50px;
+}
+.label {
+    font: 15px Arial, sans-serif;
+    font-weight: bold;
+    color: #4F8BAF;
+}
+.start{
+    padding-left:60px;
+}
+#tboxSize,#Name, #Id {
+    width:240px;
+}
+.note {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    color: #08B52F;
+}
+::-webkit-input-placeholder {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    color: #08B52F !important;
+}
+::-moz-placeholder {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    color: #08B52F !important;
+}
+:-ms-input-placeholder {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    color: #08B52F !important;
+}
+:-moz-placeholder {
+    font: 13px Arial sans-serif;
+    font-weight: bold;
+    color: #08B52F !important;
+}
+.blaknote {
+    font: 13px Arial, sans-serif;
+}
+.bttn {
+    background: #08B52F;
+    border-color: #08B52F;
+    color: #FFFFFF;
+    text-align: center;
+    font: 15px Arial sans-serif;
+    font-weight: bold;
+    width:110px;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 200px;
+}
+
+.img-with-text img {
+        float: left;
+        display: block;
+        margin: 0 auto;
+}
+
+.Asterisk {
+    padding-top: 6px;
+    color: #08B52F;
+    font: 20px Arial sans-serif;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 160px;
+    height: 30px;
+    float: left;
+}
+
+th, td{
+    border:1px solid black;
+    text-align:left;
+    padding:1px 10px;
+    table-layout:unset;
+}
+table {
+    border: 1px solid black;
+    margin: auto;
+    width:auto;
+}
+.btn-outline-danger {
+    text-align: center;
+    font: 15px TimesNewRoman sans-serif;
+    font-weight: bold;
+}
+.btnEdit {
+    border-color: darkgreen;
+    color: darkgreen;
+    width: 65px;
+}
+.btnDelete {
+    border-color: red;
+    color: red;
+    width: 65px;
+}
+div.inner {
+    padding: 20px 5px;
+    float: left;
+}

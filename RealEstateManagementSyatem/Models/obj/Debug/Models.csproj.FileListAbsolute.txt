@@ -1,0 +1,9 @@
+D:\Assignmnet\RealEstateManagementSyatem\Models\bin\Debug\Models.dll
+D:\Assignmnet\RealEstateManagementSyatem\Models\bin\Debug\Models.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Models\bin\Debug\Domain.dll
+D:\Assignmnet\RealEstateManagementSyatem\Models\bin\Debug\Domain.pdb
+D:\Assignmnet\RealEstateManagementSyatem\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Assignmnet\RealEstateManagementSyatem\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Assignmnet\RealEstateManagementSyatem\Models\obj\Debug\Models.csproj.CopyComplete
+D:\Assignmnet\RealEstateManagementSyatem\Models\obj\Debug\Models.dll
+D:\Assignmnet\RealEstateManagementSyatem\Models\obj\Debug\Models.pdb
